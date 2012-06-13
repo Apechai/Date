@@ -17,8 +17,8 @@
     self = [super init];
     if (self != nil) {
         year = y;
-        month = m;
-        day = d;
+        self.month = m;
+        self.day = d;
     }
     
     return self;

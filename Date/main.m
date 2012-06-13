@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
         
         //Call the init method that takes three arguments.
         Date *independenceDay =
-        [[Date alloc] initWithMonth: 7 day: 4 year: 1776
+        [[Date alloc] initWithMonth: 13 day: 4 year: 1776
          ];
         
         NSLog(@"Independence Day was %@.", independenceDay);
